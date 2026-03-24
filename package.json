@@ -1,0 +1,21 @@
+{
+  "name": "label-cropper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "fs-extra": "^11.3.4",
+    "multer": "^2.1.1",
+    "node-cron": "^4.2.1",
+    "pdf-lib": "^1.17.1",
+    "sharp": "^0.34.5",
+    "uuid": "^13.0.0"
+  }
+}
