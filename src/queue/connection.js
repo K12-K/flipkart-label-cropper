@@ -4,11 +4,11 @@ import IORedis from "ioredis";
 
 export const connection = new IORedis({
   // host: "127.0.0.1",
-  host: "crossover.proxy.rlwy.net",
-  username: "default",
-  password: "qybsFAJEDcpCmuuiNXmUonfYBbfqqfZv",
+  host: process.env.REDIS_HOST,
+  username: process.env.REDIS_USERNAME,
+  password: process.env.REDIS_PASSWORD,
   maxRetriesPerRequest: null,
-  port: 45646,
+  port: process.env.REDIS_PORT,
   // host: process.env.REDIS_HOST // production (Railway)
   // port: 6379,
 });
