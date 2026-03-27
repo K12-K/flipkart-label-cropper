@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "worker": "node src/queue/worker.js",
+    "cleanup": "/** DEPRACATED FLOW **/ node src/cron/cleanup.js"
   },
   "keywords": [],
   "author": "",

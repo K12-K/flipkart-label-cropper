@@ -1,7 +1,7 @@
 import express from "express";
 import "./config/env.js"
 import processRoutes from "./routes/processRoutes.js";
-// import "./utils/cleanup.js";
+import "./utils/cleanup.js";
 
 const app = express();
 
