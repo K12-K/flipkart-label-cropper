@@ -28,6 +28,7 @@ router.get("/status/:jobId", async (req, res) => {
 
   res.json({
     status: state,
+    progess: job.progress,
     result,
   });
 });
