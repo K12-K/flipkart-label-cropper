@@ -72,6 +72,8 @@ const worker = new Worker(
       max: 5,        // max jobs
       duration: 1000 // per second
     },
+    // lockDuration: 10 * 60 * 1000, // ✅ 10 minutes
+    // stalledInterval: 120000, // ✅ 2 min
   }
 );
 
